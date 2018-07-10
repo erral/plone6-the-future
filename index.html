@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Plone 6</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <link rel="stylesheet" href="lib/css/jquery.countdown.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+          <h1>Plone 6</h1>
+
+          <iframe src="https://giphy.com/embed/CdAh3Sh0Mvtdu" width="480" height="373" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </section>
+
+        <section>
+          <h2>I. atala: Front-endaren modernizazioa</h2>
+          <iframe src="https://giphy.com/embed/3o6vXJRr7PQsBmta48" width="480" height="258" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </section>
+
+        <section>
+          <h3>Current status (Plone 4.3, 5.0)</h3>
+          <p class="fragment">
+            Ploneren templatinga zaila da: skins, views, viewlets, portlets, ZPT, ...
+          </p>
+          <p class="fragment">
+            Soluzioa: <strong>Diazo</strong>
+          </p>
+        </section>
+
+        <section>
+          <h3>Defektuzko itxura</h3>
+          <p class="fragment">
+            Barceloneta theme: LESS
+          </p>
+          <p class="fragment">
+            Arazoa: pertsonalizatzeko zaila eta espektatiba diferentziak, nahiko "ixilean" egindako lana
+          </p>
+          <p class="fragment">
+            Hau berritzeko teknologia berriak sartzea zaila da Plone Corearen funtzionamenduagatik
+          </p>
+          <p class="fragment">
+            Ez dago inor Plone komunitatean lan hori hartu nahi duenik
+          </p>
+        </section>
+
+        <section>
+          <h2>Erabili JS buzzwordak: Plone React</h2>
+          <iframe src="https://giphy.com/embed/IjmMzurYulKEw" width="480" height="318" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </section>
+
+        <section>
+          REST API + React<br/>
+          (demo)
+        </section>
+
+        <section>
+          <h2>SEO? Google?</h2>
+          <p>
+            VHS Ehrenamtsportal: <a href="https://vhs-ehrenamtsportal.de/">https://vhs-ehrenamtsportal.de/</a>
+          </p>
+
+          <p>
+            Google: <a href="https://www.google.de/search?q=site%3Avhs-ehrenamtsportal.de">https://www.google.de/search?q=site%3Avhs-ehrenamtsportal.de</a>
+          </p>
+
+          <p>API (Plone): <a href="https://vhs-ehrenamtsportal.de/api">https://vhs-ehrenamtsportal.de/api</a></p>
+
+          <p>Robots.txt: <a href="https://vhs-ehrenamtsportal.de/robots.txt">https://vhs-ehrenamtsportal.de/robots.txt</a></p>
+
+          <p>Plone Robots.txt: <a href="https://vhs-ehrenamtsportal.de/api/robots.txt">https://vhs-ehrenamtsportal.de/api/robots.txt</a></p>
+
+        </section>
+
+        <section>
+          <p>
+            Lan egiteko moduak ere ezberdinak: back + front bereizketa
+          </p>
+          <p>
+            <a href="https://www.jungzeelandia.de/">https://www.jungzeelandia.de/</a>
+          </p>
+        </section>
+
+        <section>
+            <h2>I. atala: Back-endaren modernizazioa</h2>
+            <iframe src="https://giphy.com/embed/IheewDzC0n3G0" width="480" height="340" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </section>
+
+        <section>
+          <h2>Why Plone is going to Die: Andreas Jung, 2014</h2>
+          <p>
+            Bideoa: <a href="https://www.youtube.com/watch?v=k1FbMVzaaOo">https://www.youtube.com/watch?v=k1FbMVzaaOo</a>
+          </p>
+          <p>
+            Aurkezpena: <a href="https://www.slideshare.net/ajung/why-plone-will-die">https://www.slideshare.net/ajung/why-plone-will-die</a>
+          </p>
+        </section>
+
+        <section>
+          <p>
+            Inkesta bat egin zuen, eta boto gehien jaso zituen aukeretako bat zen: <em>Leave Zope and migrate to Pyramid</em>
+          </p>
+        </section>
+
+        <section>
+          <iframe src="https://giphy.com/embed/oxFDq4E9CHb7W" width="480" height="375" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <p>
+            Plone Komunitatea txikia da, ezin da orain arteko teknologia bota eta zerotik hasita Plone bezalako produktu bat sortu.
+          </p>
+        </section>
+
+        <section>
+          <h2>Evolution, not revolution</h2>
+          <p>Norbaitek Plone Confen baten esandakoa</p>
+        </section>
+
+        <section>
+          <h2>Python 2 End Of Life</h2>
+          <div class="python-27-clock"></div>
+
+          <iframe src="https://giphy.com/embed/11VoJtDnAIokAU" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </section>
+
+        <section>
+          <h2>
+              Zope on Python 3 = Zope 4
+          </h2>
+
+          <p>
+            Gocept: Zope 4: <a href="https://blog.gocept.com/2018/04/03/a-heartily-welcome-for-zope-in-the-python-3-wonderland/">https://blog.gocept.com/2018/04/03/a-heartily-welcome-for-zope-in-the-python-3-wonderland/</a>
+          </p>
+          <p>
+            Philip Bauer: Plone on Python 3: <a href="https://www.starzel.de/blog/porting-plone-to-python-3">https://www.starzel.de/blog/porting-plone-to-python-3</a>
+          </p>
+        </section>
+
+        <section>
+          <h2>Helburuak</h2>
+          <ol>
+            <li>
+              Zope 4: python 3 eta WSGI gainean dabilen Zope bertsioa <em>(eta ZMIn Bootstrap duena)</em>
+            </li>
+            <li>
+              Plone 5.2: python 3 eta Zope 4n exekutatzen den Plone bertsioa <em>(eta python 2n ere bai)</em>
+            </li>
+
+          </ol>
+        </section>
+
+        <section>
+          <h1>Plone 6</h1>
+          <ul>
+            <li>
+              Back-end
+              <ul>
+                <li>Python 3</li>
+                <li>Zope 4</li>
+                <li>WSGI</li>
+              </ul>
+            </li>
+            <li>
+              Front-end
+              <ul>
+                <li>REST API</li>
+                <li>React</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section>
+            <iframe src="https://giphy.com/embed/XIqCQx02E1U9W" width="800" height="600" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </section>
+
+			</div>
+		</div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="lib/js/jquery-2.2.4.min.js"></script>
+    <script src="lib/js/jquery.plugin.js"></script>
+    <script src="lib/js/jquery.countdown.min.js"></script>
+    <script src="lib/js/moment.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+    <script>
+        $(document).ready(function(){
+            var death = moment("20200101", "YYYYMMDD").utc().toDate();
+            $('.python-27-clock').countdown({
+                until: death,
+                format: 'YODHMS'
+            });
+        });
+    </script>
+  </body>
+</html>
